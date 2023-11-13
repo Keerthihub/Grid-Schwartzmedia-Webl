@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":[],"sources":[],"mappings":""}
+{"version":3,"file":"script.js","names":["prevScrollpos","window","pageYOffset","onscroll","currentScrollPos","document","getElementById","style","top"],"sources":["script.js"],"mappings":"AAAA,IAAIA,cAAgBC,OAAOC,YAC3BD,OAAOE,SAAW,WAChB,IAAIC,EAAmBH,OAAOC,YAE5BG,SAASC,eAAe,UAAUC,MAAMC,IADtCR,cAAgBI,EAC4B,IAEA,QAEhDJ,cAAgBI,CAClB"}

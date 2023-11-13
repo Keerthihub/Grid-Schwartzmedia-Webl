@@ -1,12 +1,90 @@
 @import "_variables";
 @import "reset";
 
-body {
-  background-color: #fff;
-  color: #000;
-  font-family: "Union-Regular",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1rem;
+@font-face {
+  font-family: "GTAmerica-Medium";
+  src: url('../../fonts/GT-America-Medium.OTF') format("opentype");
+}
+@font-face {
+  font-family: "GTAmerica-Regular";
+  src: url('../../fonts/GT-America-Regular.OTF') format("opentype");
+}
+@font-face {
+  font-family: "GTAmerica-RegularItalic";
+  src: url('../../fonts/GT-America-Regular-Italic.OTF') format("opentype");
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "GTAmerica-Medium", Helvetica, Arial, serif;
+  font-weight: 100;
+  line-height: 1;
+}
+
+strong, b {
+  font-family: "GTAmerica-Medium", Helvetica, Arial, serif;
+  font-weight: 100;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  margin: 0 6em;
+  padding: 30px 0;
+}
+
+.page {
+  padding: 5vh 5vw 10vh;
+  margin: 0 auto;
+  max-width: var(--content-width);
+
+  .sticky-headline {
+    position: absolute;
+    display: block;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "GTAmerica-Medium", Helvetica, Arial, serif;
+    font-size: 34px;
+    color: #212020;
+    letter-spacing: -1px;
+  }
+}
+
+
+
+main {
+  position: relative;
+
+  .hero-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -5vh;
+
+    img{
+      width: auto;
+      max-height: 60vh !important;
+
+    }
+  }
 }
 

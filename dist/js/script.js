@@ -1,2 +1,2 @@
-var prevScrollpos=window.pageYOffset;window.onscroll=function(){var e=window.pageYOffset;document.getElementById("header").style.top=prevScrollpos>e?"0":"-70px",prevScrollpos=e};
+var prevScrollpos=window.pageYOffset;window.onscroll=function(){var e=window.pageYOffset;document.getElementById("header").style.top=prevScrollpos>e?"0":"-90px",prevScrollpos=e};
 //# sourceMappingURL=script.js.map
